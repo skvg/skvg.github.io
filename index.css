@@ -98,12 +98,16 @@
     .image {
         width: 20%;
     }
+}
 @media screen and (max-width:650px){
+    .name {
+        width: 100%;
+    }
     .image{
         width: 150px;
     }
     .prop {
-        width: 60%;
+        width: 70%;
     }
     .related {
         width: 100%;
@@ -111,9 +115,6 @@
     .related  div{
         width: 31.5%;
         padding-bottom: 10px;
-    }
-    .related div a{
-        font-size: 25px;
     }
     .social{
         width: 200px;
@@ -126,6 +127,9 @@
     .image{
         width: 120px;
     }
+    .name h1{
+        font-size: 35px;
+    }
     .prop {
         width: 90%;
     }
@@ -133,18 +137,30 @@
         font-size: 15px;
     }
     .college h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
     .related div {
         width: 31%;
     }
     .related div a {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width:350px){
+    .name h1 {
+        font-size: 30px;
+    }
+    .prop {
+        width: 95%;
+    }
+    .branch {
+        width: 100%;
+    }
+    .college {
+        width: 100%;
+    }
     .branch h2 {
-        font-size: 12px;
+        font-size: 13px;
     }
     .related div {
         width: 30%;
