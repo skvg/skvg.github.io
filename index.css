@@ -137,13 +137,13 @@
         font-size: 15px;
     }
     .college h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .related div {
         width: 31%;
     }
     .related div a {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 @media screen and (max-width:350px){
@@ -160,12 +160,15 @@
         width: 100%;
     }
     .branch h2 {
-        font-size: 13px;
+        font-size: 11px;
+    }
+    .college h2 {
+        font-size: 11px;
     }
     .related div {
         width: 30%;
     }
     .related div a {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
